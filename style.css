@@ -1,6 +1,6 @@
 .header {
-	background-color: #C01D1D;
-	border-bottom: 1px solid #C01D1D;
+	background-color: #0B8DE3;
+	border-bottom: 1px solid #0B8DE3;
 	overflow-y: auto;
 	width: 100%;
 	position: fixed;
@@ -10,7 +10,7 @@
 }
 
 .main {
-	background: #CD6262;
+	background: #B8E2FE;
 	box-sizing: border-box;
 	padding: 40px;
 	left: 0;
@@ -29,4 +29,11 @@ li {
 	font-weight: 300;
 	text-transform: uppercase;
 	padding: 0 40px;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Impact, Charcoal, sans-serrif;
+	text-transform: uppercase;
+	color: #212121
 }
