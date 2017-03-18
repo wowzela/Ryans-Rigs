@@ -1,0 +1,15 @@
+.header {
+	background-color: #911305;
+	border-bottom: 1px solid #911305;
+	overflow-y: auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.main {
+	background: url(http://www.texturex.com/albums/Computer-Textures/Computer%20texture%20circuit%20stock%20photo%20red%20motherboard.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
