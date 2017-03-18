@@ -1,6 +1,6 @@
 .header {
-	background-color: #911305;
-	border-bottom: 1px solid #911305;
+	background-color: #FEC95D;
+	border-bottom: 1px solid #FEC95D;
 	overflow-y: auto;
 	width: 100%;
 	position: fixed;
@@ -8,8 +8,20 @@
 	left: 0;
 	z-index: 1000;
 }
+
 .main {
 	background: url(http://www.texturex.com/albums/Computer-Textures/Computer%20texture%20circuit%20stock%20photo%20red%20motherboard.jpg) no-repeat center center;
 	background-size: cover;
-	height: 500px;
+	height: 300px;
+}
+
+li {
+	color: #FFF;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	text-align: left;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 0 40px;
 }
