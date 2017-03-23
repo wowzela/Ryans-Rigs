@@ -1,6 +1,6 @@
 .header {
-	background-color: #0B8DE3;
-	border-bottom: 1px solid #0B8DE3;
+	background-color: #466995;
+	border-bottom: 1px solid #466995;
 	overflow-y: auto;
 	width: 100%;
 	position: fixed;
@@ -20,6 +20,11 @@
 	z-index: 999;
 }
 
+ul {
+	margin: 30px auto;
+	text-align: center;
+}
+
 li {
 	color: #FFF;
 	display: inline-block;
@@ -31,9 +36,20 @@ li {
 	padding: 0 40px;
 }
 
+li:hover {
+	color: #DBE9EE;
+}
+
 h1 {
-	font-size: 50px;
-	font-family: Impact, Charcoal, sans-serrif;
+	color: #466995;
+	font-family: 'Oswald', sans-serif;
+	font-size: 32px;
+	font-weight: 300;
 	text-transform: uppercase;
-	color: #212121
+}
+
+p {
+	color: #333;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 18px;
 }
