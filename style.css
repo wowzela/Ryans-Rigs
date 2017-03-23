@@ -10,7 +10,7 @@
 }
 
 .main {
-	background: #DBE9EE;
+	background-color: #DBE9EE;
 	box-sizing: border-box;
 	padding: 80px 0 20px 0;
 	left: 0;
@@ -18,6 +18,16 @@
 	text-align: center;
 	width: 100%;
 	z-index: 999;
+}
+
+.getstarted {
+	display: inline-block;
+	border: 1px solid #466995;
+}
+
+.getstarted:hover {
+	background-color: #C0D6DF;
+	color: #FFF;
 }
 
 ul {
