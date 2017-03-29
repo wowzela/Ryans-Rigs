@@ -22,7 +22,8 @@
 
 .getstarted {
 	display: inline-block;
-	border: 1px solid #466995;
+	border: 1px solid #DBE9EE;
+	font-family: 'Varela Round', sans-serif;
 }
 
 .getstarted:hover {
@@ -62,4 +63,24 @@ p {
 	color: #333;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 18px;
+}
+
+.firstbox {
+	max-width: 800px;
+	min-width: 100px;
+	max-height: 200px;
+	min-height: 100px;
+	overflow: scroll;
+	float: left;
+	position: inline-block;
+}
+
+.styleimg {
+	max-width: 800px;
+	min-width: 100px;
+	max-height: 200px;
+	min-height: 100px;
+	overflow: hide;
+	float: right;
+	position: block;
 }
